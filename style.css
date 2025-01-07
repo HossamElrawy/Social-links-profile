@@ -1,0 +1,92 @@
+/* Reset margins, paddings, and set box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure full height for html */
+html {
+  height: 100%;
+}
+
+/* Styling the body */
+body {
+  background-color: hsl(0, 0%, 8%);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+/* Main container styling */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 12%);
+  width: 274px;
+  padding: 27px 0;
+  border-radius: 12px;
+  row-gap: 10px;
+}
+
+/* Profile picture styling */
+.profile-picture {
+  width: 62px;
+  border-radius: 50%; /* Circular profile picture */
+  margin-bottom: 3px;
+}
+
+/* Name styling */
+.name {
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+}
+
+/* Address styling */
+.address {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  font-size: 14px;
+  padding-bottom: 9px;
+}
+
+/* Description styling */
+.description {
+  font-size: 12px;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 6px;
+}
+
+/* Social links container styling */
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  row-gap: 10px;
+}
+
+/* Button styling */
+button {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 7px 0;
+  width: 220px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
